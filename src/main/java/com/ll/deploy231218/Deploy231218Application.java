@@ -23,7 +23,7 @@ public class Deploy231218Application {
     @GetMapping("/")
     @ResponseBody
     public String showMain() {
-        return "메인이";
+        return "메인입니다";
     }
 
     @GetMapping("/new")
